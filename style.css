@@ -1,0 +1,280 @@
+
+.searchbar{
+    display: inline;
+    background:#f7f7f7;
+    display: flex;
+    height:30px;
+
+    width:200px;
+    
+    padding: 10px 20px;
+   
+}
+.search{
+    padding-bottom: -20px;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.searchbar input{
+    background-color: transparent;
+    flex:1;
+    border:0;
+    outline:none;
+    padding: 24px 20px;
+    font-size:17px;
+   
+}
+.searchbar button{
+    border:0;
+    border-radius: 50%;
+    background: #f7f7f7;
+    cursor: pointer;
+}
+.header{
+    display: flex;
+    position: absolute;
+    
+    
+    text-align: center;
+    
+    padding: 10px;
+    align-items: center;
+
+    top:0;
+    
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+    
+
+}
+.navbar a{ 
+    
+
+    
+    display:inline;
+    text-align: center;
+    justify-content: space-between;
+    align-content: center;
+
+    color:black;
+    margin: 0.5rem 1rem;
+    
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    
+    font-weight: 500;
+    
+   
+    
+    width:66px;
+    height: 24px;
+    padding-top: 13px;
+}
+.Logo{
+    display:inline-block;
+   
+
+    
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size:25px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    width:250px;
+    height: 24px;
+    
+
+    
+    
+    
+}
+
+body{
+    background-color:#f7f7f7;
+}
+.home-codrops{
+
+
+height:199px;
+width:330px;
+color: black;
+background-color: #fff;
+border-color: black;
+border: 1px solid grey;
+border-radius: 10px;
+font-family: "Inter var", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+padding-left:24px;
+padding-right: 24px;
+margin-bottom: 50px;
+word-spacing: 3px;
+
+
+
+
+}
+p{
+    color: #26272e;
+
+}
+.outer{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr;
+}
+.bottom1,.up1,.navbar2 a{
+    text-decoration: none;
+    color:black;
+    transition: color 0.3s;
+    
+}
+.bottom1:hover, .up1:hover,.navbar2 a:hover{
+    color:blue;
+}
+.email{
+    width:100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    border-radius:60px;
+    padding:5px;
+    
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+
+}
+.email input{
+    color: black;
+    background: transparent;
+    flex: 1;
+    border:0;
+    outline: none;
+    padding: 10px;
+    font-size: 17px;
+    
+}
+.email button{
+    width: 90px;
+    height: 40px;
+    padding-left: 9px;
+    color: white;
+    border:0;
+    border-radius: 60px;
+    background: black;
+    
+
+}
+
+.box2{
+    background-color: #c5ccf7;
+    height:400px;
+    width:330px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    padding-left:24px;
+    padding-right: 24px;
+    margin-bottom: 50px;
+    font-size: medium;
+    
+}
+.space{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+strong{
+    color:black;
+}
+img{
+    float:left;
+    border-radius: 10px;
+    padding-right: 10px;
+
+
+}
+article{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+.inner3{
+    float: left;
+    padding-left: 70px;
+    height:300px;
+    width:410px;
+    border-radius: 10px;
+}
+.dorame{
+
+    background-color: black;
+    border-radius: 10px;
+    height: 70px;
+    width:300px;
+    padding-top: 40px;
+    padding-left: 10px;
+    text-align: left;
+    margin-top: -20px;
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+
+    
+
+}
+.dorame1{
+    color: white;
+}
+.dorame2{
+    float: none;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color:#e8e8e8;
+    
+
+}
+.navbar2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    
+    
+}
+.navbar2 a{ 
+    display: inline-block;
+    
+
+    
+    display:inline;
+    text-align: center;
+    justify-content: space-between;
+    align-content: center;
+
+    color:black;
+    
+    padding: 20px;
+    
+    
+    
+    text-align: center;
+    padding-bottom: 40px;
+    
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    
+    font-weight: 500;
+    
+    
+    
+}
